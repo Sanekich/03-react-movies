@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { Toaster, toast } from 'react-hot-toast';
-import { SearchBar } from './SearchBar/SearchBar';
-import { MovieGrid } from './movieGrid/movieGrid';
-import { Loader } from './Loader/Loader';
-import { ErrorMessage } from './Error/ErrorMessage';
-import { fetchMovies } from './Services/movieService';
+import { SearchBar } from './components/SearchBar/SearchBar';
+import { MovieGrid } from './components/movieGrid/movieGrid';
+import { Loader } from './components/Loader/Loader';
+import { ErrorMessage } from './components/Error/ErrorMessage';
+import { fetchMovies } from './services/movieService';
 import type { Movie } from './types/movie';
-import { MovieModal } from './MovieModal/MovieModal';
+import { MovieModal } from './components/MovieModal/MovieModal';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);

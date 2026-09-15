@@ -1,5 +1,5 @@
 ﻿import css from './movieGrid.module.css';
-import type { Movie } from '../types/movie';
+import type { Movie } from '../../types/movie';
 
 type MovieGridProps = {
   movies: Movie[];
