@@ -9,7 +9,7 @@ export const fetchMovies = async (query: string): Promise<Movie[]> => {
     {
       params: {
         query,
-        include_adult: false,
+        include_adult: false, 
         language: 'en-US',
         page: 1,
       },
