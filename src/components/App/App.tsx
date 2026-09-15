@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Toaster, toast } from 'react-hot-toast';
 import { SearchBar } from '../SearchBar/SearchBar';
-import { MovieGrid } from '../MovieGrid/movieGrid';
+import { MovieGrid } from '../MovieGrid/MovieGrid';
 import { Loader } from '../Loader/Loader';
 import { ErrorMessage } from '../ErrorMessage/ErrorMessage';
 import { fetchMovies } from '../../services/movieService';
